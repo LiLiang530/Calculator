@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="cal.css">
+    <script type="text/javascript" src="cal.js"></script>
+</head>
+<body onload="init();">
+    <div class="main">
+        <h1>Calculator</h1>
+        <input type="text" id="txt"  onkeyup="showKey(event);" name="number"  readonly class="showAns">
+        <div class="buttons">
+            <button onclick="clean();">Clean</button>
+            <button onclick="opsin();">sin</button>
+            <button onclick="opcos();">cos</button>
+            <button onclick="optan();">tan</button>
+
+            <button onclick="opxy();">x^y</button>
+            <button onclick="opln();">lnx</button>
+            <button onclick="opnn();">n!</button>
+            <button onclick="opdiv();">/</button>
+
+            <button onclick="add7();">7</button>
+            <button onclick="add8();">8</button>
+            <button onclick="add9();">9</button>
+            <button onclick="opadd();">+</button>
+
+            <button onclick="add4();">4</button>
+            <button onclick="add5();">5</button>
+            <button onclick="add6();">6</button>
+            <button onclick="opmul();">*</button>
+
+            <button onclick="add1();">1</button>
+            <button onclick="add2();">2</button>
+            <button onclick="add3();">3</button>
+            <button onclick="opsub();">-</button>
+
+            <button onclick="opsqrt();">根号</button>
+            <button onclick="add0();">0</button>
+            <button onclick="adddot();">.</button>
+            <button onclick="opequal()">=</button>
+        </div>
+    </div>
+    
+</body>
+</html>
